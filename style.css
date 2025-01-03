@@ -124,7 +124,7 @@ nav ul li + li + li {
 }
 
 .outer-headings {
-  height: 50vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: left;
