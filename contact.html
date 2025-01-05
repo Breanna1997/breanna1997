@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Contact</title>
-    <title>Breanna B.</title>
     <meta charset="utf-8" />
     <meta name="description" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,50 +20,62 @@
          </button>
         </div>
       </div>
+       <!--Start Nav -->
+  <nav class="rotating-nav" aria-label="Main Navigation">
+    <ul>
+      <li><a href="index.html" aria-current="page">Breanna</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--End Nav-->
       <div class="content">
-        <div id="contact-section">
+        <div class="contact-section">
           <h1>Let's Work Together...</h1>
         </div>
-      </div>
-     <!--form -->
-        <div class="contact-form">
-          <form method="post" action='mailto:breannacodes@gmail.com' enctype="text/plain">
-            <fieldset>
-              <label for="name">
-                <input name="name" placeholder="Name" type="text" required />
-              </label>
-              <label for="email">
-                <input name="email" placeholder="Email" type="email" required />
-              </label>
-              <label for="message">
-                <textarea name="message" placeholder="Message" required></textarea>
-              </label>
-              <label>
-                <input class="contact_btn" type="submit" value="Send" class="submit" />
-              </label>
-            </fieldset>
+         <div>
+          <form class="contact-form">
+
+              <label for="name"></label>
+              <input name="name" placeholder="Name" type="text" required />
+              
+              <label for="email"></label>
+              <input name="email" placeholder="Email" type="email" required />
+
+              <label for="message"></label>
+              <textarea name="message" placeholder="Message" required></textarea>
+
+              <label></label>
+              <input class="contact_btn" type="submit" value="Send" class="submit" />
+
           </form>
         </div>
-<!--footer starts-->
-     <footer>
-      <div class="contact-links">
-       <a href="https://codepen.io/your-work/" target="_blank" class="social"><i class="fa-brands fa-codepen"></i></a>
-       <a href="https://www.linkedin.com/in/breanna-b-6517991ba/" target="_blank" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
-       <a href="https://github.com/Breanna1997/breanna1997" target="_blank" class="social"><i class="fa-brands fa-github"></i></a>
-     </div>
-     </footer>
-<!--footer ends-->
-    </div>
-<!--Start Nav -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Breanna</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    <!--End Nav-->
- 
+      </div>
+ <!--footer starts-->
+ <footer>
+  <p>© 2025 Breanna Blanks</p>
+      <p>
+        <a href="mailto:breannacodes@gmail.com">breannacodes@gmail.com</a> | 
+        <a href="#top">Back to Top</a>
+      </p>
+      <!--Hover Links to Social Profiles-->
+  <div class="contact-links">
+   <a href="https://codepen.io/your-work/" aria-label="Codepen Profile" target="_blank" class="social">
+    <i class="fa-brands fa-codepen" aria-hidden="true"></i>
+    <span class="sr-only">Codepen</span>
+  </a>
+   <a href="https://www.linkedin.com/in/breanna-b-6517991ba/" aria-label="LinkedIn Profile" target="_blank" class="social">
+    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+    <span class="sr-only">LinkedIn</span>
+  </a>
+   <a href="https://github.com/Breanna1997/breanna1997" aria-label="Github Profile" target="_blank" class="social">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    <span class="sr-only">Github</span>
+  </a>
+ </div>
+ </footer>
+ <!--footer ends-->
+ <!--JavaScript-->
      <script src="script.js"></script>
   </body>
 
