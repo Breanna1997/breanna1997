@@ -20,12 +20,12 @@ body {
   padding: 50px;
 }
 
-.container.show-nav {
+/* .container.show-nav {
   transform: rotate(-20deg);
-}
+} */
 
 /*when adjusting the hight and width of the circle also adjust the top and left as needed*/
-.circle-container {
+/* .circle-container {
   position: fixed;
   top: -100px;
   left: -100px;
@@ -73,7 +73,7 @@ body {
 .container.show-nav + nav li {
   transform: translateX(0);
   transition-delay: 0.3s;
-}
+} */
 
 nav {
   position: fixed;
@@ -114,6 +114,7 @@ nav ul li + li + li {
   margin-left: 30px;
   transform: translateX(-200%);
 }
+/* content style */
 .content{
   max-width: 1000px;
   margin: 50px auto;
