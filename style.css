@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #f64c72;
+    background-color: #ffffff;
     color: #222;
     overflow-x: hidden;
     margin: 0;
@@ -21,6 +21,9 @@ body {
 }
 
 /* nav */
+.custom-navbar{
+  background-color: #f64c72;/* ensures that this css overrides bootstrap predefined colors for navbar*/
+}
 
 
 /* this for the list item thats directly after the navigation, unorder list, and the first list item*/
@@ -93,8 +96,13 @@ body {
 
 
 .content p {
+  margin-top: 65px; /* Prevents extra space above p */
+  margin-bottom: 20px; /* Adds space below the p */
+  word-wrap: break-word; /* Ensures long words wrap to next line */
+  overflow-wrap: break-word; /* Supports wrapping long words for modern browsers */
   color: #333;
   line-height: 1.5;
+  text-indent: 30px; /* Indents the first line by 30px */
 }
 .selected {
     background-color: #f64c72;
@@ -268,5 +276,9 @@ footer {
 
 footer i {
   vertical-align: middle;
+}
+
+.footer-p{
+  text-align: center;
 }
 
